@@ -438,7 +438,7 @@ export default function Portfolio() {
                   </li>
                   <li className="flex items-center gap-2">
                     <Award className="w-4 h-4 text-purple-400" />
-                    Passed Expertise Competency Test (UKK) with Satisfactory grade
+                    Graduated from Vocational High School with an average final grade of 87.95.
                   </li>
                   <li className="flex items-center gap-2">
                     <Users className="w-4 h-4 text-purple-400" />
