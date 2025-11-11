@@ -57,8 +57,8 @@ export default function Portfolio() {
     {
       role: "Website Developer & Graphic Designer",
       company: "PT. Unitronic Jaya",
-      period: "Aug 2025 - Present",
-      type: "Full-time",
+      period: "Aug 2025 - Oct 2025",
+      type: "Internship",
       description: [
         "Developed and maintained corporate websites (RF Test Indonesia, Rigol Indonesia, Unitronic Jaya) using Laravel with a MySQL database",
         "Integrated real-time live chat for website visitors connected directly to admin using Pusher",
