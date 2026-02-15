@@ -828,7 +828,7 @@ export default function Portfolio() {
             {[
               {icon:Mail,label:"Email",desc:"Send me a message",href:"mailto:maryanadh787@gmail.com",accent:"#f472b6"},
               {icon:Github,label:"GitHub",desc:"Check my code",href:"https://github.com/mryana23",accent:"#d2d5d8ff"},
-              {icon:Linkedin,label:"Instagram",desc:"Let's Connect",href:"https://www.linkedin.com/in/maryana-dwi-hendrianty-31b503328/",accent:"#22d3ee"},
+              {icon:Linkedin,label:"Linkedin",desc:"Let's Connect",href:"https://www.linkedin.com/in/maryana-dwi-hendrianty-31b503328/",accent:"#22d3ee"},
             ].map((c,i)=>(
               <a key={i} href={c.href} target={i>0?"_blank":undefined} rel="noopener noreferrer" className="card-hover" style={{padding:"24px 16px",borderRadius:"16px",background:T.cardBg,border:`1px solid ${T.cardBord}`,textDecoration:"none",display:"block",boxShadow:D?"0 4px 24px rgba(0,0,0,0.22)":"0 4px 24px rgba(99,102,241,0.06)",backdropFilter:"blur(10px)"}}>
                 <div style={{width:"44px",height:"44px",borderRadius:"13px",background:`${c.accent}11`,border:`1px solid ${c.accent}22`,display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 14px",boxShadow:`0 4px 16px ${c.accent}18`}}>
@@ -856,8 +856,8 @@ export default function Portfolio() {
             <span className="fraunces" style={{fontWeight:700,fontSize:"14px",color:D?"#d2d5d8ff":"#1e1b4b"}}>Portfolio 2025</span>
           </div>
           <p className="mono label-text" style={{color:T.textSub,fontSize:"9px"}}>Built with React · Designed with ✦ care</p>
-          <div style={{display:"flex",gap:"8px"}}>
-            {[{icon:Github,href:"https://github.com/mryana23"},{icon:Linkedin,href:"https://instagram.com/lmzarxyy"},{icon:Mail,href:"mailto:maryanadh787@gmail.com"}].map(({icon:Icon,href},i)=>(
+          <div style={{display:"flex",gap:"8px"}}> 
+            {[{icon:Github,href:"https://github.com/mryana23"},{icon:Linkedin,href:"https://www.linkedin.com/in/maryana-dwi-hendrianty-31b503328/"},{icon:Mail,href:"mailto:maryanadh787@gmail.com"}].map(({icon:Icon,href},i)=>(
               <a key={i} href={href} target={i<2?"_blank":undefined} rel="noopener noreferrer" style={{width:"32px",height:"32px",borderRadius:"9px",background:D?"rgba(255,255,255,0.04)":"rgba(99,102,241,0.06)",border:`1px solid ${D?"rgba(255,255,255,0.06)":"rgba(99,102,241,0.1)"}`,display:"flex",alignItems:"center",justifyContent:"center",color:T.textSub,textDecoration:"none"}}>
                 <Icon size={13} />
               </a>
