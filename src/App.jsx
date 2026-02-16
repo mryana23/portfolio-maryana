@@ -17,11 +17,11 @@ import nexa from "./assets/nexa.png";
 const projectPreviews = [
   { id:1, title:"RF Test Indonesia", subtitle:"Corporate Website", period:"August 2025", tech:["Laravel","React","MySQL","Pusher","HTML+CSS+JS"], role:"Fullstack Developer", link:"https://rf-test-indonesia.co.id", gradient:"135deg, #0ea5e9, #6366f1", glow:"rgba(99,102,241,0.5)", image:rftest, placeholderIcon:Laptop, tag:"Live Website", tagColor:"#06b6d4" },
   { id:2, title:"Rigol Indonesia", subtitle:"Corporate Website", period:"September 2025", tech:["Laravel","MySQL","HTML+CSS+JS","Pusher"], role:"Fullstack Developer", link:"https://www.rigol-indonesia.co.id/", gradient:"135deg, #10b981, #06b6d4", glow:"rgba(16,185,129,0.5)", image:rigol, placeholderIcon:BarChart3, tag:"Live Website", tagColor:"#10b981" },
-  { id:3, title:"Unitronic Jaya", subtitle:"Corporate Website", period:"December 2025", tech:["Laravel","MySQL","HTML+CSS+JS","Pusher"], role:"Fullstack Developer", link:"https://unitronicjaya.com/", gradient:"135deg, #f59e0b, #f97316", glow:"rgba(249,115,22,0.5)", image:uj, placeholderIcon:Globe2, tag:"Live Website", tagColor:"#f97316" },
+  { id:3, title:"Unitronic Jaya", subtitle:"Corporate Website", period:"October 2025", tech:["Laravel","MySQL","HTML+CSS+JS","Pusher"], role:"Fullstack Developer", link:"https://unitronicjaya.com/", gradient:"135deg, #f59e0b, #f97316", glow:"rgba(249,115,22,0.5)", image:uj, placeholderIcon:Globe2, tag:"Live Website", tagColor:"#f97316" },
   { id:4, title:"Extracurricular Mgmt", subtitle:"School Management App", period:"Aug–Nov 2024", tech:["Laravel","MySQL","HTML+CSS+JS"], role:"Fullstack Developer & Team Lead", link:null, gradient:"135deg, #a855f7, #ec4899", glow:"rgba(168,85,247,0.5)", image:extra, placeholderIcon:School, tag:"School Project", tagColor:"#a855f7" },
   { id:5, title:"Flight Ticket Booking", subtitle:"Booking Platform", period:"Dec 2024–Jan 2025", tech:["Laravel","MySQL","Midtrans API","HTML+CSS+JS"], role:"Fullstack Developer", link:null, gradient:"135deg, #ef4444, #f97316", glow:"rgba(239,68,68,0.5)", image:aerosky, placeholderIcon:Plane, tag:"Full-stack App", tagColor:"#ef4444" },
   { id:6, title:"Arts Community", subtitle:"Community App", period:"Jan–Mar 2025", tech:["Django","MariaDB","REST API","Python"], role:"Backend Developer", link:null, gradient:"135deg, #6366f1, #a855f7", glow:"rgba(99,102,241,0.5)", image:artefy, placeholderIcon:Palette, tag:"Internship Project", tagColor:"#6366f1" },
-  { id:7, title:"NexaTech", subtitle:"Company Profile Website", period:"October 2025", tech:["React","Tailwind CSS","Vite"], role:"Frontend Developer", link:"https://nexa-tech-virid.vercel.app/", gradient:"135deg, #22c55e, #06b6d4", glow:"rgba(34,197,94,0.5)", image:nexa, placeholderIcon:Sparkles, tag:"Live Website", tagColor:"#22c55e" },
+  { id:7, title:"NexaTech", subtitle:"Dummy Company Profile Website", period:"October 2025", tech:["React","Tailwind CSS","Vite"], role:"Frontend Developer", link:"https://nexa-tech-virid.vercel.app/", gradient:"135deg, #22c55e, #06b6d4", glow:"rgba(34,197,94,0.5)", image:nexa, placeholderIcon:Sparkles, tag:"Live Website", tagColor:"#22c55e" },
   { id:8, title:"Sumber Instrumindo", subtitle:"Corporate Website", period:"September 2024", tech:["Laravel","MySQL","Bootstrap","HTML+CSS+JS"], role:"Fullstack Developer", link:"https://sumberinstrumindo.com/", gradient:"135deg, #f97316, #ef4444", glow:"rgba(249,115,22,0.5)", image:sumber, placeholderIcon:Boxes, tag:"Live Website", tagColor:"#f97316" },
 ];
 
@@ -140,7 +140,7 @@ export default function Portfolio() {
   };
 
   const experiences = [
-    { role:"Website Developer & Graphic Designer", company:"PT. Unitronic Jaya", period:"Aug 2025 – Oct 2025", type:"Ful-time", accent:"#818cf8", gradient:"135deg, #6366f1 0%, #a78bfa 100%",
+    { role:"Website Developer & Graphic Designer", company:"PT. Unitronic Jaya", period:"Aug 2025 – Dec 2025", type:"Ful-time", accent:"#818cf8", gradient:"135deg, #6366f1 0%, #a78bfa 100%",
       description:["Developed and maintained corporate websites (RF Test Indonesia, Sumber Instrumindo, Rigol Indonesia, Unitronic Jaya) using Laravel with a MySQL database","Integrated real-time live chat for website visitors connected directly to admin using Pusher","Built RF Test Indonesia V1 with React (Vite) frontend — gaining hands-on experience in component-based architecture","Optimized websites for mobile responsiveness and better user experience","Created daily promotional materials (3 posters/day) using Canva with consistent visual branding","Handled product photography, videography, and social media content management","Designed 3D furniture models and office layout concepts using SketchUp to support company visual materials"],
       tech:["Laravel","React","MySQL","Pusher","Canva","SketchUp","Video Editing","Graphic Design","3D Modeling"] },
     { role:"Backend Developer & Technical Writer", company:"PT. Median Talenta Raya", period:"Jan 2025 – May 2025", type:"Internship", accent:"#34d399", gradient:"135deg, #10b981 0%, #06b6d4 100%",
@@ -310,7 +310,7 @@ export default function Portfolio() {
                 <Code2 size={15} color="#fff" />
               </div>
             </div>
-            <span style={{fontWeight:700,fontSize:"17px",color:T.text}}>Maryana</span>
+            <span style={{fontWeight:700,fontSize:"17px",color:T.text}}>Maryana's Portfolio</span>
           </button>
 
           <div className="hide-mob" style={{display:"flex",alignItems:"center",gap:"36px"}}>
@@ -785,10 +785,10 @@ export default function Portfolio() {
           </div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(240px,1fr))",gap:"14px"}}>
             {[
-              {category:"Frontend",icon:Code,accent:"#22d3ee",items:["React","JavaScript","HTML+CSS+JS","Tailwind CSS","Bootstrap","Vite", "Responsive Design", "REST API Integration",  "Nuxt.js" ]},
+              {category:"Frontend",icon:Code,accent:"#22d3ee",items:["React","JavaScript","HTML+CSS+JS","Tailwind CSS","Bootstrap","Vite",  "Nuxt.js", "Responsive Design", "REST API Integration" ]},
               {category:"Backend",icon:Database,accent:"#818cf8",items:["Laravel","Django","MySQL","MariaDB", "MongoDB", "REST API Development","Pusher", "Redish", "Websocket"]},
               {category:"Design",icon:Palette,accent:"#f472b6",items:["Figma","Adobe Photoshop","Canva","UI/UX Design","SketchUp", "Blender", "Graphic Designer", "CorelDraw"]},
-              {category:"Tools & Others",icon:Wrench,accent:"#fbbf24",items:["Git","WordPress","Elementor","Video Editing", "phpMyAdmin", "Microsoft SQL Server", "Google Analytics"]},
+              {category:"Tools & Others",icon:Wrench,accent:"#fbbf24",items:["Git","WordPress","Elementor","Video Editing", "phpMyAdmin", "Microsoft SQL Server", "SEO", "Google Analytics"]},
             ].map((g,i)=>(
               <TiltCard key={i} className={`sr d${i+1}`} style={{padding:"24px",borderRadius:"16px",background:T.cardBg,border:`1px solid ${T.cardBord}`,boxShadow:D?"0 4px 28px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.025)":"0 4px 28px rgba(99,102,241,.08)",backdropFilter:"blur(10px)"}}>
                 <div style={{display:"flex",alignItems:"center",gap:"10px",marginBottom:"18px"}}>
@@ -827,7 +827,7 @@ export default function Portfolio() {
           <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"12px",marginBottom:"32px"}}>
             {[
               {icon:Mail,label:"Email",desc:"Send me a message",href:"mailto:maryanadh787@gmail.com",accent:"#f472b6"},
-              {icon:Github,label:"GitHub",desc:"Check my code",href:"https://github.com/mryana23",accent:"#d2d5d8ff"},
+              {icon:Github,label:"GitHub",desc:"Check my code",href:"https://github.com/mryana23",accent:"#9f6fc7"},
               {icon:Linkedin,label:"Linkedin",desc:"Let's Connect",href:"https://www.linkedin.com/in/maryana-dwi-hendrianty-31b503328/",accent:"#22d3ee"},
             ].map((c,i)=>(
               <a key={i} href={c.href} target={i>0?"_blank":undefined} rel="noopener noreferrer" className="card-hover" style={{padding:"24px 16px",borderRadius:"16px",background:T.cardBg,border:`1px solid ${T.cardBord}`,textDecoration:"none",display:"block",boxShadow:D?"0 4px 24px rgba(0,0,0,0.22)":"0 4px 24px rgba(99,102,241,0.06)",backdropFilter:"blur(10px)"}}>
@@ -853,7 +853,7 @@ export default function Portfolio() {
             <div style={{width:"24px",height:"24px",borderRadius:"7px",background:"linear-gradient(135deg,#7c3aed,#06b6d4)",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0 2px 8px rgba(124,58,237,0.3)"}}>
               <Code2 size={11} color="#fff" />
             </div>
-            <span className="fraunces" style={{fontWeight:700,fontSize:"14px",color:D?"#d2d5d8ff":"#1e1b4b"}}>Portfolio 2025</span>
+            <span className="fraunces" style={{fontWeight:700,fontSize:"14px",color:D?"#d2d5d8ff":"#1e1b4b"}}>Portfolio</span>
           </div>
           <p className="mono label-text" style={{color:T.textSub,fontSize:"9px"}}>Built with React · Designed with ✦ care</p>
           <div style={{display:"flex",gap:"8px"}}> 
