@@ -97,7 +97,7 @@ export default function Portfolio() {
   const [cursor, setCursor] = useState({ x: -200, y: -200 });
   const [cursorBig, setCursorBig] = useState(false);
 
-  const typed = useTyped(["Fullstack Developer","UI/UX Enthusiast","Graphic Designer", "Laravel + Django + React Dev","Creative Builder"], 85, 2000);
+  const typed = useTyped(["Fullstack Developer","UI/UX Enthusiast","Graphic Designer", "Laravel + Django + React Dev"], 85, 2000);
   useScrollReveal();
 
   useEffect(() => {
@@ -375,7 +375,7 @@ export default function Portfolio() {
 
             <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"20px",marginBottom:"22px"}}>
               <div style={{height:"1px",width:"80px",background:D?"linear-gradient(90deg,transparent,rgba(99,102,241,.4))":"linear-gradient(90deg,transparent,rgba(99,102,241,.35))"}} />
-              <span style={{fontSize:"clamp(15px,2.2vw,21px)",fontStyle:"italic",fontWeight:600,color:D?"#818cf8":"#6366f1"}}>& Graphic Designer</span>
+              <span style={{fontSize:"clamp(15px,2.2vw,21px)",fontStyle:"italic",fontWeight:600,color:D?"#818cf8":"#6366f1"}}>Creative Builder</span>
               <div style={{height:"1px",width:"80px",background:D?"linear-gradient(90deg,rgba(99,102,241,.4),transparent)":"linear-gradient(90deg,rgba(99,102,241,.35),transparent)"}} />
             </div>
           </div>
