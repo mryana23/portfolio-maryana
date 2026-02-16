@@ -140,10 +140,24 @@ export default function Portfolio() {
   };
 
   const experiences = [
-    { role:"Website Developer & Graphic Designer", company:"PT. Unitronic Jaya", period:"Aug 2025 – Dec 2025", type:"Ful-time", accent:"#818cf8", gradient:"135deg, #6366f1 0%, #a78bfa 100%",
-      description:["Developed and maintained corporate websites (RF Test Indonesia, Sumber Instrumindo, Rigol Indonesia, Unitronic Jaya) using Laravel with a MySQL database","Integrated real-time live chat for website visitors connected directly to admin using Pusher","Built RF Test Indonesia V1 with React (Vite) frontend — gaining hands-on experience in component-based architecture","Optimized websites for mobile responsiveness and better user experience","Created daily promotional materials (3 posters/day) using Canva with consistent visual branding","Handled product photography, videography, and social media content management","Designed 3D furniture models and office layout concepts using SketchUp to support company visual materials"],
-      tech:["Laravel","React","MySQL","Pusher","Canva","SketchUp","Video Editing","Graphic Design","3D Modeling"] },
-    { role:"Backend Developer & Technical Writer", company:"PT. Median Talenta Raya", period:"Jan 2025 – May 2025", type:"Internship", accent:"#34d399", gradient:"135deg, #10b981 0%, #06b6d4 100%",
+    {
+      role: "Website Developer & Graphic Designer", company: "PT. Unitronic Jaya", period: "Aug 2025 – Dec 2025", type: "Full-time", accent: "#818cf8", gradient: "135deg, #6366f1 0%, #a78bfa 100%",
+      description: [
+        "Developed and maintained 4 corporate websites (RF Test Indonesia, Rigol Indonesia, Sumber Instrumindo, Unitronic Jaya) using Laravel with MySQL database",
+        "Built RF Test Indonesia V1 using React (Vite) integrated with Laravel REST API",
+        "Implemented real-time live chat connected to admin using Pusher",
+        "Integrated Google Analytics (gtag) and optimized on-page SEO",
+        "Deployed and managed hosting on Hostinger ensuring scalability and performance",
+        "Optimized UI responsiveness for better mobile and cross-platform experience",
+        "Created daily promotional posters (3/day) with consistent branding using Canva",
+        "Handled product photography, videography, and social media content",
+        "Designed 3D furniture models and office layout concepts using SketchUp"
+      ],
+      tech: [
+        "Laravel", "React (Vite)", "MySQL", "Pusher", "Google Analytics", "SEO", "phpMyAdmin", "Hostinger", "Canva", "SketchUp", "Video Editing", "3D Modeling"
+      ]
+    },
+{ role:"Backend Developer & Technical Writer", company:"PT. Median Talenta Raya", period:"Jan 2025 – May 2025", type:"Internship", accent:"#34d399", gradient:"135deg, #10b981 0%, #06b6d4 100%",
       description:["Developed backend for arts community application using Django and MariaDB","Worked with Nuxt.js frontend team for API integration - learned about Vue.js ecosystem","Created comprehensive project documentation including API docs and database structure","Built professional websites using WordPress and Elementor","Compiled system requirements, workflow, and technical specifications"],
       tech:["Django","Nuxt.js (Exposure)","MariaDB","WordPress","Elementor","REST API"] },
   ];
