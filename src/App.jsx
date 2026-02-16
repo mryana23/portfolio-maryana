@@ -799,7 +799,7 @@ export default function Portfolio() {
           </div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(240px,1fr))",gap:"14px"}}>
             {[
-              {category:"Frontend",icon:Code,accent:"#22d3ee",items:["React","JavaScript","HTML+CSS+JS","Tailwind CSS","Bootstrap","Vite",  "Nuxt.js", "Responsive Design", "REST API Integration" ]},
+              {category:"Frontend",icon:Code,accent:"#22d3ee",items:["React","Tailwind CSS","HTML+CSS+JS","Bootstrap","Vite",  "Nuxt.js", "Responsive Design", "REST API Integration" ]},
               {category:"Backend",icon:Database,accent:"#818cf8",items:["Laravel","Django","MySQL","MariaDB", "MongoDB", "REST API Development","Pusher", "Redish", "Websocket"]},
               {category:"Design",icon:Palette,accent:"#f472b6",items:["Figma","Adobe Photoshop","Canva","UI/UX Design","SketchUp", "Blender", "Graphic Designer", "CorelDraw"]},
               {category:"Tools & Others",icon:Wrench,accent:"#fbbf24",items:["Git","WordPress","Elementor","Video Editing", "phpMyAdmin", "Microsoft SQL Server", "SEO", "Google Analytics"]},
