@@ -90,7 +90,9 @@ export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [scrollY, setScrollY] = useState(0);
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(
+  () => window.matchMedia("(prefers-color-scheme: dark)").matches
+);
   const [activePreview, setActivePreview] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [mouse, setMouse] = useState({ x: 0.5, y: 0.5 });
@@ -100,6 +102,12 @@ export default function Portfolio() {
   const typed = useTyped(["Fullstack Developer","UI/UX Enthusiast","Graphic Designer", "Laravel + Django + React Dev"], 85, 2000);
   useScrollReveal();
 
+  useEffect(() => {
+  const mq = window.matchMedia("(prefers-color-scheme: dark)");
+  const handler = (e) => setIsDark(e.matches);
+  mq.addEventListener("change", handler);
+  return () => mq.removeEventListener("change", handler);
+}, []);
   useEffect(() => {
     const s = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", s);
