@@ -96,8 +96,8 @@ export default function Portfolio() {
   return window.matchMedia("(prefers-color-scheme: dark)").matches;
 });
 
-// Di tombol toggle:
 const toggleTheme = () => {
+  localStorage.removeItem("theme"); 
   setIsDark(prev => {
     const next = !prev;
     localStorage.setItem("theme", next ? "dark" : "light");
