@@ -351,7 +351,7 @@ const toggleTheme = () => {
           </div>
 
           <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
-            <button onClick={()=>setIsDark(!isDark)} style={{width:"38px",height:"38px",borderRadius:"11px",background:D?"rgba(99,102,241,.1)":"rgba(99,102,241,.1)",border:`1px solid ${D?"rgba(99,102,241,.22)":"rgba(99,102,241,.22)"}`,display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"transform .35s"}}
+            <button onClick={toggleTheme} style={{width:"38px",height:"38px",borderRadius:"11px",background:D?"rgba(99,102,241,.1)":"rgba(99,102,241,.1)",border:`1px solid ${D?"rgba(99,102,241,.22)":"rgba(99,102,241,.22)"}`,display:"flex",alignItems:"center",justifyContent:"center",cursor:"pointer",transition:"transform .35s"}}
               onMouseEnter={e=>e.currentTarget.style.transform="rotate(18deg) scale(1.1)"}
               onMouseLeave={e=>e.currentTarget.style.transform="rotate(0) scale(1)"}>
               {D?<Sun size={15} color="#fbbf24"/>:<Moon size={15} color="#7c3aed"/>}
